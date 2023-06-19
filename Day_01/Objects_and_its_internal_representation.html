@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objects and its internal representation in JavaScript</title>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&family=Oswald&display=swap"rel="stylesheet" />
+    <style>
+        * {
+            font-family: "Oswald", sans-serif;
+        }
+        #main {
+            font-size: large;
+            display: flex;
+            background-color: #08011a;
+            text-align: justify;
+            color: aliceblue;
+            flex-direction: column;
+            margin: auto;
+            width: 60%;
+            padding: 10px;
+            text-indent: 10%;
+            box-shadow: 20px 0 200px 30px #f5af5b;
+        }
+
+        body {
+            background-color: #472542;
+        }
+
+        #img {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            width: auto;
+        }
+
+        h1,
+        h2 {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            text-indent: 0%;
+            padding: 0%;
+            margin: 0%;
+            font-family: "Grenze Gotisch", cursive;
+            font-family: "Oswald", sans-serif;
+        }
+
+        #codeSnip {
+            display: flex;
+            flex-direction: column;
+            padding: 0%;
+            margin: 0%;
+            padding-bottom: 0%;
+        }
+
+        p {
+            padding: 0%;
+            margin: 4px;
+        }
+
+        pre,
+        code {
+            margin: 0%;
+            padding: 0%;
+        }
+    </style>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css" />
+</head>
+
+<body>
+    <div id="main">
+        <div id="img">
+            <img src="https://1.bp.blogspot.com/-0TsHSed8D2I/X4klxxeZIlI/AAAAAAAACD8/mT7L2M1Yw_IHtcTcb9lUGR4nk52mHzwPQCLcBGAsYHQ/w553-h159/objects1.PNG"
+                alt="JavaScript Objects" />
+        </div>
+        <div>
+            <h1>Objects and its internal representation</h1>
+        </div>
+        <div>
+            <h2>in JavaScript</h2>
+        </div>
+
+        <div>
+            <p>
+                One of the most significant data types in JavaScript are objects. They
+                are used to represent real-world objects like people, automobiles, and
+                houses. Additionally, they can be used to represent ideas that are
+                more ethereal, such as games, websites, and databases.
+            </p>
+        </div>
+        <div>
+            <p>
+                In JavaScript, an object is a group of properties. There are names and
+                values for each property. The value can be any JavaScript data type,
+                including a string, number, boolean, object, or function. The name is
+                a string.
+            </p>
+        </div>
+        <div>
+            <p>
+                Using the object literal syntax or the
+                <code>Object()</code> constructor function, objects can be
+                constructed. A more condensed method of constructing objects is the
+                object literal syntax. It enables you to define the properties and
+                their values without calling the <code>Object()</code>
+                constructor function.
+            </p>
+        </div>
+        <div>
+            <p>
+                In JavaScript, a hash table serves as an object's internal
+                representation. A data structure that associates keys with values is a
+                hash table. The values are the property values, while the keys are the
+                names of the properties. To easily look for properties by name,
+                utilize the hash table.
+            </p>
+        </div>
+        <div id="codeSnip">
+            <pre>
+    <code>
+let myObject = {
+name: "John",
+age: 29,
+city: "Tenkasi"
+};
+            </code>
+            
+        </pre>
+        </div>
+
+        <div>
+            <p>
+                <code>myObject</code> has three properties: name, age, and city.
+                "John" is the string value for the name property, 29 is the number
+                value for the age property, and "Tenkasi" is the string value for the
+                city property.
+            </p>
+        </div>
+        <div>
+            <p>
+                The dot notation can be used to retrieve an object's property. For
+                instance, you could use the following code to retrieve the name
+                property's value
+            </p>
+
+            <pre>
+        <code>
+let name = myObject.name;
+Console.log(name); //output: John
+        </code>
+    </pre>
+
+            <p>The name variable will now have the string value "John" in it.</p>
+        </div>
+        <div>
+            <p>
+                The bracket notation can also be used to retrieve an object's
+                properties. When the property name is a string that contains spaces or
+                other special characters, the bracket notation is helpful. For
+                instance, you would enter the following code to determine the value of
+                city property:
+            </p>
+        </div>
+
+        <pre>
+    <code>
+let city = myObject[“city”];
+Console.log(city); //output: Tenkasi     
+    </code>
+</pre>
+
+        <div>
+            <p>The city variable will now have the string value "Tenkasi" in it.</p>
+        </div>
+        <div>
+            <p>
+                he <code>Object()</code> constructor function can be used to generate
+                objects in the following ways:
+            </p>
+        </div>
+        <pre>
+    <code>
+let myObject = new Object ();
+
+myObject.name = "John";
+myObject.age = 29;
+myObject.city = "Tenkasi";      
+    </code>
+</pre>
+
+        <div>
+            <p>
+                <code>myObject</code> is now constructed and has the same
+                characteristics as the object created using the object literal syntax.
+                Objects can also have methods. An object's associated function is
+                known as a method. Actions on an object are carried out via methods.
+            </p>
+        </div>
+        <div>
+            <p>
+                The function keyword is used to specify methods. The method name, the
+                list of parameters, and the method body are placed after the function
+                keyword. The list of variables provided to the method when it is
+                called is known as the parameter list. When a method is called, a
+                block of code called the body of the method is run.
+            </p>
+        </div>
+        <div>
+            <p>
+                An example of a method defined for the <code>myObject</code> object is
+                as follows:
+            </p>
+        </div>
+        <pre>
+    <code>
+let myObject = {
+name: "John",
+age: 29,
+city: "Tenkasi",
+greeting: function () {
+    return `Hello, my name is ${this.name}`;
+    }
+};         
+    const greeting = myObject.greeting();
+    console.log(greeting); //output: Hello, my name is John        
+    </code>
+</pre>
+        <div>
+            <p>
+                <code>myObject</code>'s <code>greeting ()</code> method is defined.
+                There are no parameters required and a string is returned by the
+                <code>greeting ()</code> method.
+            </p>
+        </div>
+        <div>
+            <p>
+                Objects are a powerful data structure in JavaScript. They can be used
+                to represent real-world objects, such as people, cars, and houses.
+                They can also be used to represent more abstract concepts, such as
+                games, websites, and databases.
+                <br />
+                Here are some of the benefits of using objects in JavaScript:
+            </p>
+            <ul>
+                <li>Objects are a powerful way to organize data.</li>
+                <li>Objects can be used to represent real-world objects.</li>
+                <li>Objects can be used to represent more abstract concepts.</li>
+                <li>Objects are easy to use.</li>
+                <li>Objects are efficient.</li>
+            </ul>
+            <p>
+                To sum up, JavaScript objects are an effective tool for manipulating
+                and storing data. Properties, which are key-value pairs, make up
+                objects. The data that is kept in the property is the value, and the
+                key is a string that identifies the property. Any type of property is
+                permissible, including strings, numbers, objects, and functions.
+            </p>
+            <a href="#top">Back to Top</a>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+</body>
+
+</html>

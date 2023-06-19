@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTTP1.1 vs HTTP2</title>
+    <style>
+      * {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #080126;
+        color: white;
+        font-size: large;
+      }
+      p {
+        display: flex;
+        flex-direction: column;
+        text-indent: 35px;
+      }
+      tr,
+      td,
+      table {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: large;
+        border: 1px solid #0c463b;
+        border-collapse: collapse;
+        background-color: #f9f871;
+        color: #031d1c;
+        padding: 10px;
+        align-items: center;
+        margin: auto;
+      }
+
+      table {
+        margin: auto;
+        width: 70%;
+        padding: 10px;
+      }
+
+      .mainContainer {
+        box-shadow: 10px 10px 80px 10px #f9f871;
+        border-radius: 30px;
+        background-origin: padding-box;
+
+        display: flex;
+        text-align: justify;
+        flex-direction: column;
+        margin: auto;
+        width: 70%;
+        padding: 30px;
+      }
+      .h1 {
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        
+      }
+      .Feature,
+      th {
+        background-color: #f8ae57;
+        color: #080126;
+        text-align: center;
+      }
+      td:hover {
+        background-color: #983e59;
+        color: #f9f871;
+      }
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="h1">
+      <h1>HTTP1.1 vs HTTP2</h1>
+    </div>
+    <div class="mainContainer">
+      <div>
+        <p>
+          The World Wide Web's primary protocol is HTTP (Hypertext Transfer
+          Protocol). It outlines the format and transmission of messages between
+          web servers and browsers. The protocol has existed for more than 20
+          years, with HTTP 1.1 being the most recent version. It is therefore
+          beginning to look older.
+        </p>
+        <p>
+          HTTP 2 is the next generation of the HTTP protocol. It was created to
+          alleviate some of the drawbacks of HTTP 1.1, including its
+          inefficiency and the absence of support for some functionality.
+        </p>
+      </div>
+      <div style="overflow-x: auto">
+        <table>
+          <thead>
+            <tr class="row">
+              <th class="Feature">Feature</th>
+              <th>HTTP/1.1</th>
+              <th>HTTP/2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="row">
+              <td class="Feature">Data transfer</td>
+              <td>Data is transferred in separate requests and responses.</td>
+              <td>
+                Data is transferred in a single stream, which allows for
+                multiple requests and responses to be sent simultaneously.
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="Feature">Header compression</td>
+              <td>Headers are compressed using a simple algorithm.</td>
+              <td>
+                Headers are compressed using a more sophisticated algorithm,
+                which results in smaller header sizes.
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="Feature">Server push</td>
+              <td>Not supported.</td>
+              <td>
+                Supported, which allows the server to send resources to the
+                client before the client requests them.
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="Feature">Connection efficiency</td>
+              <td>
+                Each request and response requires a separate TCP connection.
+              </td>
+              <td>
+                Multiple requests and responses can be sent over a single TCP
+                connection, which improves connection efficiency.
+              </td>
+            </tr>
+            <tr class="row">
+              <td class="Feature">Overall performance</td>
+              <td>HTTP/1.1 is slower than HTTP/2.</td>
+              <td>HTTP/2 is significantly faster than HTTP/1.1.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <p>
+          HTTP 1.1:- HTTP/1.1 is a stateless protocol. As a result, every
+          request a client sends to a server is distinct from any others that
+          have come before. As a result, the server must send the same headers
+          and other data with each request, which might be inefficient. A
+          connection-oriented method of data transfer is also used by HTTP 1.1.
+          This indicates that each request generates a unique TCP connection. As
+          a result, there may be bottlenecks because the server can only manage
+          so many connections at once.
+        </p>
+      </div>
+      <div>
+        <ul>
+          <li>
+            Connection-Oriented: The HTTP 1.1 protocol is a connection-oriented
+            protocol. This indicates that each request generates a unique TCP
+            connection. Because the server can only manage a limited number of
+            concurrent connections, this can lead to bottlenecks.
+          </li>
+          <li>
+            Header Compression: HTTP 1.1 enables header compression, which can
+            help to minimize the size of HTTP headers. The amount of data that
+            needs to be sent across the network can be decreased, which can
+            enhance performance.
+          </li>
+          <li>
+            Pipelining: Multiple requests may be made to the server using the
+            pipelining feature of HTTP 1.1 before the server must respond to any
+            of them. This can increase performance by minimising the amount of
+            time the client must wait for the server to respond to each request.
+          </li>
+        </ul>
+      </div>
+      <div>
+        <img
+          src="https://freecontent.manning.com/wp-content/uploads/mentalmodel-HTTP2_in_Action2.png"
+          alt="HTTP1 vs HTTP2"
+        />
+      </div>
+      <div>
+        <p>
+          HTTP 2:- HTTP 2 is a stateful protocol. As a result, the server is
+          able to monitor the status of the client and server connections.
+          Performance may be enhanced by allowing the server to provide
+          resources that the client has previously requested. The multiplexing
+          method of data transport is also used by HTTP 2. As a result, more
+          than one request can be transmitted over a single TCP connection. By
+          limiting the number of connections the server must manage, this can
+          enhance performance.
+        </p>
+      </div>
+      <div>
+        <ul>
+          <li>
+            Binary Protocol : Text directives are processed by HTTP1.1 to
+            complete request-response cycles. To carry out the identical
+            operations, HTTP/2 will employ binary commands (in 1s and 0s). Due
+            to commands comprising text and optional spaces, framing issues are
+            made easier to handle, and the implementation of commands that were
+            confusingly combined together is made simpler.
+          </li>
+          <li>
+            Multiplexing: Multiplexing is a feature of HTTP 2 that enables the
+            transmission of several requests over a single TCP connection.
+            Because there would be fewer connections for the server to manage,
+            performance may be improved.
+          </li>
+          <li>
+            Header Compression: In comparison to HTTP 1.1, HTTP 2 has a more
+            effective header compression method. By lowering the volume of data
+            that needs to be transferred over the network, this can further
+            improve performance. HTTP/2 uses a more advanced compression method
+            called HPACK that eliminates redundant information in HTTP header
+            packets.
+          </li>
+          <li>
+            Server Push: With the help of server push in HTTP 2, resources can
+            be sent to clients before they are requested. By cutting down on the
+            length of time the client has to wait for the server to respond to
+            each request, this can enhance performance.
+          </li>
+          <li>
+            Connection reuse: The client and server can use the same connection
+            for a number of queries with HTTP 2. As a result, the time it takes
+            to create a new connection will be less, which will increase
+            performance.
+          </li>
+        </ul>
+      </div>
+      <div>
+        <img
+          src="https://www.imperva.com/learn/wp-content/uploads/sites/13/2019/01/http2.jpg.webp"
+          alt="HTTP1 vs HTTP2"
+        />
+      </div>
+      <div>
+        <p>Over HTTP/1.1, HTTP/2 has a variety of benefits, including:</p>
+        <p>
+          Enhanced performance: Thanks to its support for multiplexing, header
+          compression, server push, and connection efficiency, HTTP/2 is much
+          quicker than HTTP/1.1.
+        </p>
+        <p>
+          Reduced latency: By transmitting several requests and responses over a
+          single TCP connection, HTTP/2 can minimise latency. This can enhance
+          the user experience by accelerating the loading of web pages.
+        </p>
+        <p>
+          Enhanced reliability: Thanks to its more advanced header compression
+          mechanism, HTTP/2 is more dependable than HTTP/1.1. This may assist in
+          lowering the frequency of data transfer errors.
+        </p>
+      </div>
+      <a href="#top">Back to Top</a>
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document and Window Objects</title>
+    <style>
+      * {
+        background-color: rgb(4, 1, 26);
+        color: aliceblue;
+      }
+      .mainCOntainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+        text-align: justify;
+        margin: auto;
+        box-shadow: 10px 10px 40px 10px;
+        padding: 15px;
+      }
+      p {
+        text-indent: 25px;
+      }
+
+      .img {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 80%;
+        padding: 30px;
+      }
+      table {
+        table-layout: fixed;
+        width: 100%;
+      }
+      table,
+      td,
+      th {
+        border: 2px solid rgb(0, 0, 0);
+        border-collapse: collapse;
+        padding: 10px;
+        table-layout: fixed;
+      }
+      th {
+        background-color: rgb(142, 215, 58);
+        color: black;
+      }
+
+      td:hover {
+        background-color: #2f4858;
+        color: #8ed73a;
+      }
+      .window {
+        background-color: #e7f6d1;
+        color: black;
+      }
+      .document {
+        background-color: #c0faff;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mainCOntainer">
+      <div><h1>Document and Window Objects</h1></div>
+      <div>
+        <p>
+          Two of the most significant objects in JavaScript are the window and
+          document objects. They give access to the HTML document and the
+          browser window, respectively.
+        </p>
+        <p>
+          The HTML document loaded in the browser window is represented by the
+          Document Object in web development. The document's browser window is
+          represented by the Window Object. The location object and setTimeout
+          method are two of the many helpful properties of the window object,
+          which is the top-level object in the DOM hierarchy. The document
+          object, a property of the window object, is used to access the
+          currently loaded webpage and displays any HTML documents.
+        </p>
+        <p>
+          The window object is endowed with a number of beneficial properties,
+          including length, innerWidth, innerHeight, name, whether it has been
+          closed, its parents, and more. The page's contents are contained in
+          the document object.
+        </p>
+      </div>
+      <div>
+        <h2>(BOM) Browser Object Model</h2>
+        <p>
+          The current browser window or tab is represented by objects in the
+          browser object model. The window object, which sometimes represents a
+          window, tab, or an iframe, is the topmost item in the BOM. The
+          properties of a window object include things like location, screen
+          information, and browser history. A window object in a multi-tab
+          browser represents a single tab, but certain of its properties, such
+          as innerHeight and innerWidth, and methods, such as resizeTo(), have
+          an impact on the entire browser window.
+        </p>
+      </div>
+      <div>
+        <h2>(DOM) Document Object Model</h2>
+        <p class="firstPara">
+          When you load a web page, the browser builds a Document Object Model
+          for the page. As a tree of objects (HTML, HEAD, BODY, and other HTML
+          tags), the document object represents the entire HTML page. The HTML
+          document is represented by this root element.
+        </p>
+      </div>
+      <div class="img">
+        <img
+          src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*gRMkpPF9o_hAPGS4iJKCDQ.png"
+          alt="Hierarchy of Window and Document object using BOM and DOM"
+        />
+      </div>
+      <div class="table">
+        <table>
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Window Object</th>
+              <th>Document Object</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Description</th>
+              <td class="window">Represents the browser window</td>
+              <td class="document">Represents the HTML document</td>
+            </tr>
+            <tr>
+              <th>Properties</th>
+              <td class="window">
+                Title, URL, size, location, navigator, screen, etc.
+              </td>
+              <td class="document">
+                Title, body, head, elements, innerHTML, textContent, etc.
+              </td>
+            </tr>
+            <tr>
+              <th>Methods</th>
+              <td class="window">
+                Open, close, alert, confirm, prompt, setTimeout, clearTimeout,
+                etc.
+              </td>
+              <td class="document">
+                getElementById, getElementsByTagName, querySelector,
+                querySelectorAll, innerHTML, textContent, etc.
+              </td>
+            </tr>
+            <tr>
+              <th>Root of object model</th>
+              <td class="window">BOM(Browser's object model)</td>
+              <td class="document">DOM(Document Object Model)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <h3>Description</h3>
+        <ul>
+          <li>
+            The browser window itself is represented by the window object. The
+            title, URL, and size are just a few of the attributes and methods
+            that provide you access to and control over the window. All other
+            objects in the browser are available through the window object since
+            it is the root of the browser's object model.
+          </li>
+          <li>
+            The HTML document that is open in the window is represented by the
+            document object. The title, body, and elements are just a few of the
+            properties and methods that provide you access to and control over
+            the document. The DOM (Document Object Model), a tree-like structure
+            that represents the HTML document, has its root in the document
+            object.
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>Properties</h3>
+        <ul>
+          <li>
+            The size, title, and URL of the browser window are among the
+            properties of the window object. For instance, the window.location
+            property returns the URL of the page that is presently loaded in the
+            window, and the window.title property returns the title of the
+            window.
+          </li>
+          <li>
+            The title, body, and elements of the HTML document are among the
+            properties of the document object. For instance, the document.body
+            property returns the document's body, whereas the document.title
+            property returns the document's title.
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>Methods</h3>
+        <ul>
+          <li>
+            The window object includes methods that let you interact with the
+            browser window, such as opening new windows, shutting windows, and
+            showing notifications. For instance, the window.open() and
+            window.alert() methods launch new windows, respectively, and display
+            alert messages.
+          </li>
+          <li>
+            The document object provides methods that let you interact with the
+            HTML document, such as retrieving and altering the text of elements
+            and adding and removing elements. For instance, the document and the
+            element with the supplied ID are returned by the document.
+            getElementById() method. The first element that matches the supplied
+            selection is returned by the querySelector() function.
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>Initial object model node</h3>
+        <ul>
+          <li>
+            The window object is the root of the browser's object model (BOM),
+            which implies that it provides access to all other objects in the
+            browser. When using the window.document property, for instance, the
+            document object is available.
+          </li>
+          <li>
+            The root of the DOM (Document Object Model), which is a tree-like
+            structure that represents the HTML document, is the document object.
+            This indicates that every component of the document is reachable via
+            the document object.
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>Summary</h3>
+        <p>
+          Two of the most significant objects in JavaScript are the window and
+          document objects. They give access to the HTML document and the
+          browser window, respectively. The document object is the root of the
+          DOM, whereas the window object is the root of the browser's object
+          model. The window object is typically used to gain access to browser
+          window-specific attributes and functions, such as the title, URL, and
+          size. The document object will be used to gain access to elements like
+          the title and body, as well as other HTML-related properties and
+          methods.
+        </p>
+      </div>
+      
+      <a href="#top">Back to Top</a>
+    </div>
+  </body>
+</html>
