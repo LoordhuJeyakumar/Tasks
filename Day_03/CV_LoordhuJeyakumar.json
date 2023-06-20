@@ -1,0 +1,136 @@
+{
+    "personalInfo": {
+        "name": "Loordhu Jeyakumar A",
+        "mobile": 9600693684,
+        "email": "loordhujeyakumar@gmail.com",
+        "linkedIn": "https://www.linkedin.com/in/loordhu-jeyakumar/",
+        "address": {
+            "addressLine1": "3/528-19,",
+            "addressLine2": "New CSI church street, Melameignanapuram,",
+            "city": "Tenkasi",
+            "state": "Tamilnadu",
+            "pinCode": 627814,
+            "country": "india"
+        }
+    },
+    "professionalSummery": "7 years of cross-platform experience in basic systems administration and hardware and networking, Personable and knowledgeable IT support technician with over 2 years of experience assisting customers with various hardware and software-related issues. Provided in-depth technical support to clients at a Tier 1 level, solving 99.1% of issues without transferring to Tier 2 support.",
+    "employmentHistry": [
+        {
+            "companyName": "Sathya Technosoft (i) Pvt Ltd",
+            "jobTitle": "Technical Support (Remote)",
+            "CompanyLocation": "Tuticorin, Tamil Nadu",
+            "datesOfEmployment": "Sep. 2021 to Present",
+            "describeAndResponsibilities ": "Deeply Recognise the needs, concerns, and questions of the client. Follow the case status and specifics of client complaints. By using remote support, provide them with the quickest resolution. Additionally, track those records and escalate the case to the concerned team. Remote support is provided by the programme (AnyDesk, TeamViewer, Rescue). By asking customers about their problems in depth and finding solutions, companies may diagnose, fix, and resolve problems. Create a connection of trust with our clients so they may listen to our worries. And on occasion, I educated them about the product and clarified that problem. Fast response and client satisfaction are primary priorities."
+        },
+        {
+            "companyName": "Space Textiles PVT LTD (The Chennai Silks)",
+            "jobTitle": "System Admin",
+            "CompanyLocation": "Coimbatore, Tamil Nadu",
+            "datesOfEmployment": "Feb. 2014 – April 2021",
+            "describeAndResponsibilities ": "Upkeep of computers, networks, servers running Microsoft and MAC operating systems, LAN, WAN, VPN, and VDI servers, network security, and the setup of network devices including routers and switches. Monitoring, debugging, installing, maintaining, and managing mcAfee Console, as well as monitoring and troubleshooting systems, hardware, software, and CCTV installation and maintenance. Additionally, Sophos firewall and antivirus software installation, maintenance, troubleshooting, and support for all computer hardware, software, and networks. Internet, LAN, and cabling configuration."
+        },
+        {
+            "companyName": "Sree Kannan Departmental",
+            "jobTitle": "Computer hardware & network",
+            "CompanyLocation": "Madurai, Tamil Nadu",
+            "datesOfEmployment": "May. 2012 – Dec. 2013",
+            "describeAndResponsibilities ": "**Control end user access rights, permissions, and accounts. Installed and set up DNS, DHCP, Terminal Services, and RDP server administration.* Operating system installation, configuration, and troubleshooting (Windows XP, Vista, Win 7, Win 8, Win 10, and Windows Server 2003, 2008, 2012, and 2016). ** Setting up and managing user accounts. computer assembling and disassembling. installing and keeping up with many hardware devices.* Setting up, maintaining, and troubleshooting NAS devices and routers. adjusting the internet connection. installing, managing, and troubleshooting both network and local printers.* Setting up, configuring, and debugging mail clients (such as Microsoft Outlook, Outlook Express, and Zimbra). ** Setting up software bundles like Microsoft Office, Adobe Acrobat Professional, etc. ** Cyberome firewall installation, configuration, and management.* Using remote access tools like Team Viewer, Ammy Admin, AnyDesk, and Remote Desktop Connection to troubleshoot laptop and desktop issues. Five branch offices receive remote help. installing, configuring, and administering software.Installation and setup of workstations for an IP/IPX-based LAN.* Looking at a problem with the internal network. examining more than 100 systems.* Network setup management and troubleshooting, including punching and crimping.* Controlling a CCTV surveillance system. control the video conferencing.* Setting up and managing the McAfee Console. serving a year as a cashier in a department shop in Kannan."
+        }
+    ],
+    "TechnicalSkils": {
+        "operatingSystems": [
+            "Windows Server 2003",
+            "Windows Server 2008",
+            "Windows Server 2012",
+            "Windows server 2016",
+            "Win XP",
+            "Win Vista",
+            "Windows 7",
+            "Windows 8.1",
+            "Windows 10",
+            "Windows 11",
+            "Linux",
+            "Android"
+        ],
+        "softwares": [
+            "VS Code",
+            "IP tools",
+            "MS Office",
+            "Open office",
+            "visual studio",
+            "Adobe Photoshop",
+            "Adobe illustrator",
+            "IIS"
+        ],
+        "networkingSkills": [
+            "Configuring LAN network structure",
+            "TCP/IP",
+            "IPv4",
+            "IPV6",
+            "switching",
+            "routing",
+            "VDI",
+            "NAT",
+            "VPN",
+            "port forwarding",
+            "N/W Implementations",
+            "Network Cable Crimping & Punching etc.",
+            "firewall maintenance and configuration"
+        ],
+        "hardwareSkills": "Assembling and Troubleshooting various hardware components such as Motherboard, RAM, Processor etc."
+    },
+    "skils": {
+        "experienced": [
+            "Operating system",
+            "Software Troubleshooting & Problem Solving",
+            "Hardware Troubleshooting & Problem Solving",
+            "Hardware maintenance And troubleshooting",
+            "Technical Support"
+        ],
+        "Skilful": [
+            "JavaScript",
+            "JSON",
+            "c",
+            "c++",
+            "HTML",
+            "CSS",
+            "Phone & Email Technical Support",
+            "Communication & Interpersonal Skills",
+            "Time Management Skills",
+            "Networking",
+            "Computer Repair",
+            "Decision-Making Skills",
+            "Creative Thinking Skills",
+            "Network troubleshooting"
+        ]
+    },
+    "education": [
+        {
+            "instituteName": "TPS Government Boys Higher Secondary School",
+            "courseOrClassName": "SSLC",
+            "year": "2010 - 2011",
+            "percentage": 86
+        },
+        {
+            "instituteName": "TPS Government Boys Higher Secondary School",
+            "courseOrClassName": "11th",
+            "year": "2011 - 2012",
+            "percentage": 80
+        }
+    ],
+    "personalDetails": {
+        "fatherName": "G.Antony Raj",
+        "motherName": "A.Annapakiyam",
+        "DateOfBirth": "03-05-1994",
+        "maritalStatus": "Married",
+        "permanentAddress": {
+            "addressLine1": "3/528-19,",
+            "addressLine2": "New CSI church street, Melameignanapuram,",
+            "city": "Tenkasi",
+            "state": "Tamilnadu",
+            "pinCode": 627814,
+            "country": "india"
+        }
+    },
+    "declaration": "I hereby declare that all the information given above is true and correct to the best of my knowledge. All experiences and skills I have, I got from self-learning and self-experience"
+}
