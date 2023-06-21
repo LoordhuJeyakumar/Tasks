@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+                font-size: 30px;
+            }
+            div{
+                border: 1px solid black;
+                padding: 10px;
+            }
+            img{
+                border:1px solid black;
+            }
+            div>p{
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            
+// create a new xhr object
+let xhr = new XMLHttpRequest();
+
+// open a connection
+xhr.open('GET', 'https://restcountries.com/v3.1/all', true);
+
+// after the request is processed
+xhr.onload = function(){
+    let responseObject = JSON.parse(this.responseText);    
+
+    imgDisplay(responseObject);
+}
+
+// send the request
+xhr.send();
+function imgDisplay(responseObject){
+    for(let i=0; i<responseObject.length; i++){
+        //creat image container
+        let imgDiv = document.createElement('div');
+        //creat image element
+        let img = document.createElement('img');
+        let url = responseObject[i].flags.png;
+        img.src = url;
+        img.alt = responseObject[1].flag;
+        //creat p tag
+        let country = document.createElement('p');
+        
+        let countryName = responseObject[i].name.common;
+        country.textContent = countryName;
+        
+        
+        document.body.appendChild(imgDiv);
+        imgDiv.append(img, country);
+    }
+}
+        </script>
+        <script src="displayFlags.js"></script>
+    </body>
+</html>
