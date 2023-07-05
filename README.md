@@ -14,3 +14,8 @@ This Repositry have all daily tasks
 * [Day_05](Day_05)
     *   Anonymous function & IIFE programs.
     *   Arrow functions programs.
+* [Day_06](Day_06)
+    *   [Find the culprits and nail them](Day_06/Find_the_culprits_and_nail_them/) — debugging javascript
+        *   [Part_01](Day_06/Find_the_culprits_and_nail_them/Part_01/) ==> this folder have some debugged HTML & JS snippets
+        *   [Part_02](Day_06/Find_the_culprits_and_nail_them/Part_02/) ==> this folder have some Javscript loops debugged snippets
+        *   [Part_03](Day_06/Find_the_culprits_and_nail_them/Part_03/) ==> this folder have some Javscript array bassed debugged snippets
