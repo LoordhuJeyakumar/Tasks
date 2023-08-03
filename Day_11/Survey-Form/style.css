@@ -195,3 +195,7 @@ h1{
   height: 100vh;
   color: aquamarine;
 }
+
+.Default{
+display: none;
+}
