@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 style="text-align: center;">Survey</h1>
+    
+    <h1>Survey</h1>
     <div class="container">
         
-        <form action="">
+        <form action="./thankyou.html">
            <div class="firstName_lastname">
              
                    <div class="para">
@@ -32,8 +33,8 @@
            <div class="email_div">
             <p>Email <span class="require" >*</span></p>
             <input type="email" required>
-           </div class="starExp">
-           <p style="margin-bottom: 0%;">Your Experience <span class="require">*</span></p>
+           </div >
+           <p class="starExp">Your Experience <span class="require">*</span></p>
            <div class="star-rating">
 
             <input type="radio" name="rating" value="1" required ><i></i>
@@ -56,7 +57,7 @@
                     <tr class="ratingHead">
                         <td></td>
                         <th>Very Unsatisfied</th>
-                        <th>Unsatisfied</td>
+                        <th>Unsatisfied</th>
                         <th>Neutral</th>
                         <th>Satisfied</th>
                         <th>Very Satisfied</th>
@@ -71,11 +72,11 @@
                     </tr>
                     <tr>
                         <th>Service</th>
-                        <td><input type="radio" name="Service" value="Very_Unsatisfied"required></td>
-                        <td><input type="radio" name="Service" value="Unsatisfied"required></td>
-                        <td><input type="radio" name="Service" value="Neutral"required></td>
-                        <td><input type="radio" name="Service" value="Satisfied"required></td>
-                        <td><input type="radio" name="Service" value="Very_Satisfied"required></td>
+                        <td><input type="radio" name="Service" value="Very_Unsatisfied" required></td>
+                        <td><input type="radio" name="Service" value="Unsatisfied" required></td>
+                        <td><input type="radio" name="Service" value="Neutral" required></td>
+                        <td><input type="radio" name="Service" value="Satisfied" required></td>
+                        <td><input type="radio" name="Service" value="Very_Satisfied" required></td>
                     </tr>
                     <tr>
                         <th>Company Overall</th>
@@ -91,7 +92,7 @@
                <!--  -->
                <div class="firstRating_select">
                 <div >
-                    <label for="Purchase" style="font-weight: bold;">Purchase</label>
+                    <label for="Purchase" >Purchase</label>
                     <select name="Purchase" id="Purchase">
                         <option value="Default">Select your ratings</option>
                         <option value="Very_Unsatisfied">Very Unsatisfied</option>
@@ -103,7 +104,7 @@
                    </div>
     
                    <div>
-                    <label for="Service" style="font-weight: bold;">Service</label>
+                    <label for="Service" >Service</label>
                     <select name="Service" id="Service">
                         <option value="Default">Select your ratings</option>
                         <option value="Very_Unsatisfied">Very Unsatisfied</option>
@@ -115,7 +116,7 @@
                    </div>
     
                    <div>
-                    <label for="Company_Overall" style="font-weight: bold;">Company Overall</label>
+                    <label for="Company_Overall" >Company Overall</label>
                     <select name="Company_Overall" id="Company_Overall">
                         <option value="Default">Select your ratings</option>
                         <option value="Very_Unsatisfied">Very Unsatisfied</option>
@@ -142,7 +143,7 @@
                 <tr class="ratingHead">
                     <td></td>
                     <th>Very Unsatisfied</th>
-                    <th>Unsatisfied</td>
+                    <th>Unsatisfied</th>
                     <th>Neutral</th>
                     <th>Satisfied</th>
                     <th>Very Satisfied</th>
@@ -157,11 +158,11 @@
                 </tr>
                 <tr>
                     <th>Recommend our product to others</th>
-                    <td><input type="radio" name="Recommend_product" value="Very_Unsatisfied"required></td>
-                    <td><input type="radio" name="Recommend_product" value="Unsatisfied"required></td>
-                    <td><input type="radio" name="Recommend_product" value="Neutral"required></td>
-                    <td><input type="radio" name="Recommend_product" value="Satisfied"required></td>
-                    <td><input type="radio" name="Recommend_product" value="Very_Satisfied"required></td>
+                    <td><input type="radio" name="Recommend_product" value="Very_Unsatisfied" required></td>
+                    <td><input type="radio" name="Recommend_product" value="Unsatisfied" required></td>
+                    <td><input type="radio" name="Recommend_product" value="Neutral" required></td>
+                    <td><input type="radio" name="Recommend_product" value="Satisfied" required></td>
+                    <td><input type="radio" name="Recommend_product" value="Very_Satisfied" required></td>
                 </tr>
                 <tr>
                     <th>Recommend our company to others</th>
@@ -177,7 +178,7 @@
 
            <div class="secondRating_select">
             <div >
-                <label for="BuyAgain" style="font-weight: bold;">Buy from us again</label>
+                <label for="BuyAgain" >Buy from us again</label>
                 <select name="BuyAgain" id="BuyAgain">
                     <option value="Default">Select your ratings</option>
                     <option value="Very_Unsatisfied">Very Unsatisfied</option>
@@ -189,7 +190,7 @@
                </div>
 
                <div>
-                <label for="Recommend_product" style="font-weight: bold;">Recommend our product to others</label>
+                <label for="Recommend_product" >Recommend our product to others</label>
                 <select name="Recommend_product" id="Recommend_product">
                     <option value="Default">Select your ratings</option>
                     <option value="Very_Unsatisfied">Very Unsatisfied</option>
@@ -201,7 +202,7 @@
                </div>
 
                <div>
-                <label for="Recommend_company" style="font-weight: bold;">Recommend our company to others</label>
+                <label for="Recommend_company" >Recommend our company to others</label>
                 <select name="Recommend_company" id="Recommend_company">
                     <option value="Default">Select your ratings</option>
                     <option value="Very_Unsatisfied">Very Unsatisfied</option>

@@ -1,7 +1,9 @@
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+body{
+  margin: 0%;
+}
 p{
     font-weight: bolder;
 }
@@ -170,10 +172,26 @@ h1{
   height: 10em
  }
  .submit{
-  padding: 5% 0%; 
+  display: flex;
+  justify-content: end;
+  padding: 2% 0%; 
+  
+ }
+ .submit input{
+  padding: 1%;
+  width: 20%;
+  border-radius: 1em;
  }
  table{
 
   border-collapse: collapse;
  }
 
+.thankyou{
+  background-color:darkslategrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: aquamarine;
+}
