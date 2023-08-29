@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.formContainer, .dataContainer{
+    width: 80%;
+}
+
+.form-group{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.genderContainer >label{
+    padding: 10px;
+}
+
+.foodContainer>p{
+margin: 0%;
+}
+
+.foodContainer>label{
+    margin: 0%;
+    padding: 10px;
+}
+
+.country_state{
+    display: flex;
+    flex-direction: column;
+}
+.table{
+    margin: auto;
+
+}
+#submit {
+    width: 100%;
+}
+td, th, tr{
+   border: 5px solid black;
+}
