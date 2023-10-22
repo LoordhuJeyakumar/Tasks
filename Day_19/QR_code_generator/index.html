@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR code generator</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="shortcut icon" href="./images/qricon.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container-fluid mt-3">
+      <h1 class="heading">QR Code Generator</h1>
+      <div id="formAndDataBox" class="formAndDataBox row w-75">
+        <form>
+          <div class="d-flex" id="inputBox">
+            <div class="w-100">
+              <div class="form-floating textareaBox m-2">
+                <textarea
+                  required
+                  class="form-control w-100 h-100"
+                  placeholder="Enter Data"
+                  id="floatingTextarea"
+                  rows="7"
+                ></textarea>
+                <label
+                  style="background-color: transparent !important"
+                  for="floatingTextarea"
+                  >Enter data to get QR CODE</label
+                >
+              </div>
+            </div>
+
+            <div class="w-100 mt-2 me-2">
+              <div class="input-group mb-3">
+                <div class="form-floating">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="width"
+                    placeholder="width"
+                  />
+                  <label for="width">Width</label>
+                </div>
+                <span class="input-group-text">
+                  <span class="material-symbols-outlined border-start-0">
+                    close
+                  </span>
+                </span>
+                <div class="form-floating">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="hight"
+                    placeholder="hight"
+                  />
+                  <label for="hight">Hight</label>
+                </div>
+              </div>
+
+              <div class="input-group d-flex flex-column colorSelector">
+                <div class="qrColorInputBox p-0 m-0 d-flex">
+                  <label
+                    for="qrColorInput"
+                    class="form-label fs-6 w-100 d-md-flex align-items-center"
+                    >QR Code Color
+                    <input
+                      type="color"
+                      class="form-control form-control-color w-100"
+                      id="qrColorInput"
+                      value="#000000"
+                      title="Choose QR color"
+                    />
+                  </label>
+                </div>
+
+                <div class="qrBackGroundColorInputBox p-0 m-0">
+                  <label
+                    for="qrBackGroundColorInput"
+                    class="form-label fs-6 w-100 d-md-flex align-items-center"
+                    >QR Background Color
+                    <input
+                      type="color"
+                      class="form-control form-control-color w-100"
+                      id="qrBackGroundColorInput"
+                      value="#ffffff"
+                      title="Choose QR Background color"
+                    />
+                  </label>
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <select
+                  required
+                  class="form-select"
+                  id="format"
+                  aria-label="Select Format"
+                  name="format"
+                >
+                  <option value="png">Select QR Format</option>
+                  <option value="svg">SVG</option>
+                  <option value="png">PNG</option>
+                  <option value="jpg">JPG</option>
+                </select>
+              </div>
+
+              <div>
+                <button
+                  class="btn btn-success w-100"
+                  id="generateBtn"
+                  type="button"
+                >
+                  Generate
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div id="qrDownloadBox">
+            <div class="d-flex justify-content-center mt-3">
+              <div class="card mb-3 w-75">
+                <div class="row g-0 justify-content-center">
+                  <div class="col-md-4">
+                    <img
+                      id="qrImage"
+                      src="./qrcode.png"
+                      class="img-fluid rounded"
+                      alt=""
+                    />
+                  </div>
+                  <div class="d-flex cardBodyBox">
+                    <div
+                      class="card-body p-0 flex-column d-md-flex align-items-evenly justify-content-center"
+                    >
+                      <p
+                        class="card-title text-center p-2 text-light text-wrap"
+                        id="qrContent"
+                      ></p>
+                      <button
+                        class="btn-success btn w-100 p-2"
+                        type="button"
+                        id="downloadBtn"
+                      >
+                        Download
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          fill="currentColor"
+                          class="bi bi-download"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"
+                          />
+                          <path
+                            d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
