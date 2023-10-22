@@ -1,0 +1,59 @@
+* {
+  font-family: "Itim", cursive;
+  color: #e6f4f1;
+}
+
+.heading,
+h3 {
+  color: #cfff86 !important;
+}
+
+.searchBox {
+  position: relative;
+}
+
+.search,
+.card {
+  background-color: transparent !important;
+}
+
+#searchInput:focus ~ label {
+  color: #00ffff;
+}
+
+.mealRandomCards {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.mealRandomCards .card {
+  width: 26rem;
+}
+.modal-content {
+  height: 90% !important;
+  width: 100% !important;
+}
+
+.img-thumbnail {
+  width: 12em;
+}
+.headingAndSearchBox {
+  margin-top: 50px;
+  border-radius: 5%;
+  padding-bottom: 50px;
+
+  justify-content: center;
+  width: 70%;
+}
+.card {
+  backdrop-filter: blur(10px);
+}
+.searchListUl {
+  overflow-x: scroll;
+  height: 350px;
+}
+a{
+  text-decoration: none !important;
+}

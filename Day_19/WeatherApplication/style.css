@@ -1,0 +1,91 @@
+* {
+  color: aliceblue;
+}
+body {
+  margin: 0%;
+  padding: 0.5em;
+  box-sizing: border-box;
+  background: #0f0c29;
+  background: url("./images/scattered-clouds.jpg"),
+    linear-gradient(to right, #0f0c29, #302b63, #24243e);
+
+  background-position: center !important;
+  background-size: cover !important;
+  height: 100vh;
+}
+
+.container {
+  justify-content: center;
+  flex-direction: column;
+}
+#latitude_lon {
+  font-size: 13px;
+}
+
+.detailsContainer,
+.temperature {
+  justify-content: space-around;
+  gap: 10px;
+}
+.tempContent {
+  flex-direction: column;
+}
+.city_time h2 {
+  text-align: center;
+  justify-content: center;
+}
+.city_time {
+  text-align: center;
+  justify-content: center;
+  text-wrap: none;
+}
+
+.content,
+.air-container,
+#threeHours {
+  width: 100%;
+  backdrop-filter: blur(70px);
+  border-radius: 30px;
+}
+.air-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#weather_Description {
+  text-transform: capitalize;
+}
+
+.navThreeHours {
+  background-color: transparent !important;
+}
+
+.list-group-item {
+  background-color: #f9f871 !important;
+  color: #454555 !important;
+  font-weight: 500;
+}
+.list-group-flush > li > span {
+  position: absolute;
+  top: 50;
+  right: 0;
+  margin-right: 10px;
+}
+.list-group-flush > li,
+.card,
+.air-container {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.list-group-flush > li > span > *,
+.list-group-flush > li > span > abbr > sup {
+  color: black !important;
+  text-decoration: none;
+}
+#threeHour_Data > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
