@@ -1,0 +1,33 @@
+IMDB Design a DB for IMDB 
+
+1. Movie should have multiple media(Video or Image) 
+2. Movie can belongs to multiple Genre 
+3. Movie can have multiple reviews and Review can belongs to a user 
+4. Artist can have multiple skills 
+5. Artist can perform multiple role in a single film
+
+List of Tables
+
+    movies
+    media
+    genre
+    review
+    user
+    Artist
+    Skills
+    role
+    director
+    writer   
+
+     Relationships:
+
+Table	Relationship	Type	    Column	        References
+Movies	Genre	        One-to-One	genreID	        genre.genre_ID
+Movies	Director	    One-to-One	directorID	    director.director_ID
+Movies	Writer	        One-to-Many	writersID	    writer.writer_ID
+Movies	Artist	        One-to-Many	artistID	    artist.artist_ID
+Movies	Media	        One-to-One	mediaID	        media.media_ID
+Movies	Review	        One-to-Many	reviewID	    review.review_ID
+User	Review	        One-to-Many	reviewID	    review.review_ID
+Artist	Skills	        One-to-Many	artistSkilsID	skills.skill_ID
+Artist	Role	        One-to-One	artistRole	    role.role_ID
