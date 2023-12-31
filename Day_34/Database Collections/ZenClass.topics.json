@@ -1,0 +1,582 @@
+[{
+  "_id": {
+    "$oid": "6582eb1cb14c211015721af4"
+  },
+  "topic_ID": 1,
+  "topic_Name": "Javascript - Day -1 : Introduction to Browser & web",
+  "topic_Contents": [
+    "Introduction to web,",
+    "Browser Wars",
+    "DOM tree VS CSSOM tree ",
+    "Intro to Browser internals(HTML parser, CSS parser)",
+    "JavaScript V8 engine internals",
+    "Intro to IP",
+    "MAC address",
+    "Ports",
+    "HTTP Methods",
+    "How the Server looks at the URL",
+    "Console on Browser",
+    "js vs Node js",
+    "Data types"
+  ],
+  "topic_PreReadUrls": "",
+  "topic_Tasks": [
+    {
+      "$oid": "6582cd88b14c211015721ae6"
+    }
+  ],
+  "topic_RecordingUrls": "",
+  "topic_LiveClassUrls": "",
+  "topic_Date": {
+    "$date": "2023-05-27T10:37:00.187Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6582eb1cb14c211015721af5"
+  },
+  "topic_ID": 2,
+  "topic_Name": "Javascript - Day -2 : Request & Response cycle",
+  "topic_Contents": [
+    "Copy by value and Copy by reference",
+    "Window & document object",
+    "Array and JSON iteration",
+    "XMLHTTPRequest"
+  ],
+  "topic_PreReadUrls": "",
+  "topic_Tasks": [
+    {
+      "$oid": "6582cd88b14c211015721ae7"
+    }
+  ],
+  "topic_RecordingUrls": "",
+  "topic_LiveClassUrls": "",
+  "topic_Date": {
+    "$date": "2023-05-28T10:37:00.187Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6582eb1cb14c211015721af6"
+  },
+  "topic_ID": 3,
+  "topic_Name": "Javascript - Day -3 : JS array & objects",
+  "topic_Contents": [
+    "Hoisting & scope",
+    "function & return keyword",
+    "types of function"
+  ],
+  "topic_PreReadUrls": "",
+  "topic_Tasks": [
+    {
+      "$oid": "6582cd88b14c211015721ae8"
+    }
+  ],
+  "topic_RecordingUrls": "",
+  "topic_LiveClassUrls": "",
+  "topic_Date": {
+    "$date": "2023-06-03T10:37:00.187Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6582eb1cb14c211015721af7"
+  },
+  "topic_ID": 4,
+  "topic_Name": "Javascript - Day -4 : What is XMLHTTPRequest?",
+  "topic_Contents": [
+    "var vs let vs const",
+    "block scoping",
+    "spread & rest operators",
+    "array & object destructure",
+    "Object property shorthand",
+    "Template literals",
+    "Arrow functions"
+  ],
+  "topic_PreReadUrls": "",
+  "topic_Tasks": [
+    {
+      "$oid": "6582cd88b14c211015721ae9"
+    }
+  ],
+  "topic_RecordingUrls": "",
+  "topic_LiveClassUrls": "",
+  "topic_Date": {
+    "$date": "2023-06-04T10:37:00.187Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6582eb1cb14c211015721af8"
+  },
+  "topic_ID": 5,
+  "topic_Name": "Javascript - Day -5 : Functions",
+  "topic_Contents": [
+    "Understanding the basics of prototype",
+    "What is classess in js?",
+    "consntructor",
+    "use of this key word in classes"
+  ],
+  "topic_PreReadUrls": "",
+  "topic_Tasks": [
+    {
+      "$oid": "6582cd88b14c211015721aea"
+    }
+  ],
+  "topic_RecordingUrls": "",
+  "topic_LiveClassUrls": "",
+  "topic_Date": {
+    "$date": "2023-06-18T10:37:00.187Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b28"
+  },
+  "topic_ID": 6,
+  "topic_Name": "User authentication and authorization",
+  "topic_Contents": [
+    "form validation",
+    "RESTful API",
+    "Express"
+  ],
+  "topic_PreReadUrls": "https://www.mernstacktraining.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b18"
+    }
+  ],
+  "topic_RecordingUrls": "https://godaddy.com/pede/morbi.jpg",
+  "topic_LiveClassUrls": "http://chicagotribune.com/rhoncus.js",
+  "topic_Date": {
+    "$date": "2020-10-01T15:28:36.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b29"
+  },
+  "topic_ID": 7,
+  "topic_Name": "Form handling in React",
+  "topic_Contents": [
+    "form validation",
+    "React",
+    "user authorization",
+    "frontend",
+    "authorization"
+  ],
+  "topic_PreReadUrls": "https://www.mernstackuniversity.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b10"
+    }
+  ],
+  "topic_RecordingUrls": "https://samsung.com/quisque.aspx",
+  "topic_LiveClassUrls": "http://360.cn/dui/vel/sem/sed/sagittis/nam/congue.png",
+  "topic_Date": {
+    "$date": "2020-10-09T04:47:04.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b2a"
+  },
+  "topic_ID": 8,
+  "topic_Name": "Setting up a development environment",
+  "topic_Contents": [
+    "deployment",
+    "routing",
+    "unit testing",
+    "CRUD operations",
+    "user authorization"
+  ],
+  "topic_PreReadUrls": "https://www.mernstackuniversity.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b11"
+    }
+  ],
+  "topic_RecordingUrls": "https://addthis.com/mauris/non/ligula.jsp",
+  "topic_LiveClassUrls": "http://slideshare.net/sem/fusce.png",
+  "topic_Date": {
+    "$date": "2020-10-18T01:26:26.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b2b"
+  },
+  "topic_ID": 9,
+  "topic_Name": "React Router",
+  "topic_Contents": [
+    "file uploading"
+  ],
+  "topic_PreReadUrls": "https://www.mernstackbootcamp.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b12"
+    }
+  ],
+  "topic_RecordingUrls": "https://jalbum.net/nulla/sed/vel/enim.xml",
+  "topic_LiveClassUrls": "https://imageshack.us/elementum/in/hac/habitasse/platea/dictumst.js",
+  "topic_Date": {
+    "$date": "2020-10-23T15:47:10.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b2c"
+  },
+  "topic_ID": 10,
+  "topic_Name": "MongoDB and Mongoose",
+  "topic_Contents": [],
+  "topic_PreReadUrls": "https://www.mernstackbeginner.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b13"
+    }
+  ],
+  "topic_RecordingUrls": "https://sina.com.cn/nam/congue/risus.aspx",
+  "topic_LiveClassUrls": "https://odnoklassniki.ru/bibendum/felis/sed/interdum.png",
+  "topic_Date": {
+    "$date": "2020-11-04T00:38:33.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b2d"
+  },
+  "topic_ID": 11,
+  "topic_Name": "RESTful API design",
+  "topic_Contents": [
+    "sorting"
+  ],
+  "topic_PreReadUrls": "https://www.mernstackguide.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b14"
+    }
+  ],
+  "topic_RecordingUrls": "https://oracle.com/scelerisque/quam/turpis/adipiscing/lorem.png",
+  "topic_LiveClassUrls": "https://imdb.com/eu/massa/donec/dapibus/duis/at/velit.json",
+  "topic_Date": {
+    "$date": "2020-10-10T01:38:44.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b2e"
+  },
+  "topic_ID": 12,
+  "topic_Name": "Data validation and sanitization",
+  "topic_Contents": [
+    "frontend",
+    "user authentication"
+  ],
+  "topic_PreReadUrls": "https://www.mernstacktutorial.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b15"
+    }
+  ],
+  "topic_RecordingUrls": "http://miitbeian.gov.cn/lorem.jsp",
+  "topic_LiveClassUrls": "https://nba.com/magna/vestibulum/aliquet/ultrices/erat/tortor.json",
+  "topic_Date": {
+    "$date": "2020-11-11T15:24:35.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b2f"
+  },
+  "topic_ID": 13,
+  "topic_Name": "Node.js and Express.js",
+  "topic_Contents": [
+    "RESTful API",
+    "error handling"
+  ],
+  "topic_PreReadUrls": "https://www.mernstackmasterclass.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b16"
+    }
+  ],
+  "topic_RecordingUrls": "https://techcrunch.com/bibendum/felis/sed.aspx",
+  "topic_LiveClassUrls": "http://ocn.ne.jp/dapibus/augue.jsp",
+  "topic_Date": {
+    "$date": "2020-10-27T08:18:14.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b30"
+  },
+  "topic_ID": 14,
+  "topic_Name": "Performance optimization",
+  "topic_Contents": [
+    "form validation",
+    "Node.js",
+    "RESTful API",
+    "database",
+    "sorting"
+  ],
+  "topic_PreReadUrls": "https://www.mernstack101tutorial.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b17"
+    }
+  ],
+  "topic_RecordingUrls": "https://europa.eu/odio/condimentum/id.jsp",
+  "topic_LiveClassUrls": "https://google.de/ipsum.png",
+  "topic_Date": {
+    "$date": "2020-11-15T18:58:33.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b31"
+  },
+  "topic_ID": 15,
+  "topic_Name": "File uploading in MERN stack",
+  "topic_Contents": [
+    "authorization"
+  ],
+  "topic_PreReadUrls": "https://www.mernstackbeginner.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b19"
+    }
+  ],
+  "topic_RecordingUrls": "http://ow.ly/vitae/consectetuer/eget/rutrum/at/lorem.json",
+  "topic_LiveClassUrls": "https://imageshack.us/ligula.xml",
+  "topic_Date": {
+    "$date": "2020-11-10T13:57:12.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b32"
+  },
+  "topic_ID": 16,
+  "topic_Name": "CRUD operations with MongoDB",
+  "topic_Contents": [
+    "file uploading",
+    "backend"
+  ],
+  "topic_PreReadUrls": "https://www.mernstackmasterclass.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b1a"
+    }
+  ],
+  "topic_RecordingUrls": "http://auda.org.au/erat/volutpat/in/congue.jsp",
+  "topic_LiveClassUrls": "http://fastcompany.com/massa/tempor/convallis/nulla/neque/libero/convallis.jpg",
+  "topic_Date": {
+    "$date": "2020-11-10T13:57:12.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b33"
+  },
+  "topic_ID": 17,
+  "topic_Name": "Internationalization and localization",
+  "topic_Contents": [
+    "MongoDB",
+    "database",
+    "RESTful API",
+    "React Router"
+  ],
+  "topic_PreReadUrls": "https://www.mernstackcourses.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b1b"
+    }
+  ],
+  "topic_RecordingUrls": "http://dropbox.com/justo/etiam/pretium/iaculis/justo.png",
+  "topic_LiveClassUrls": "https://lycos.com/a/suscipit.jpg",
+  "topic_Date": {
+    "$date": "2020-11-16T22:19:21.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b34"
+  },
+  "topic_ID": 18,
+  "topic_Name": "Node.js and Express.js",
+  "topic_Contents": [],
+  "topic_PreReadUrls": "https://www.mernstack101tutorial.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b1c"
+    }
+  ],
+  "topic_RecordingUrls": "https://jigsy.com/tortor/sollicitudin.json",
+  "topic_LiveClassUrls": "https://edublogs.org/mi.js",
+  "topic_Date": {
+    "$date": "2020-10-07T19:01:55.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b35"
+  },
+  "topic_ID": 19,
+  "topic_Name": "State management with Redux",
+  "topic_Contents": [
+    "RESTful API",
+    "authentication",
+    "unit testing",
+    "Redux",
+    "search functionality"
+  ],
+  "topic_PreReadUrls": "https://www.mernstacktutorialseries.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b1d"
+    }
+  ],
+  "topic_RecordingUrls": "https://about.com/eget/semper/rutrum/nulla/nunc/purus.xml",
+  "topic_LiveClassUrls": "https://yellowbook.com/in/sapien/iaculis/congue/vivamus/metus.xml",
+  "topic_Date": {
+    "$date": "2020-10-05T07:29:11.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b36"
+  },
+  "topic_ID": 20,
+  "topic_Name": "Real-time applications with Socket.io",
+  "topic_Contents": [
+    "frontend",
+    "unit testing",
+    "form validation",
+    "RESTful API"
+  ],
+  "topic_PreReadUrls": "https://www.mernstackbeginner.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b1e"
+    }
+  ],
+  "topic_RecordingUrls": "http://cnn.com/nec/sem/duis.json",
+  "topic_LiveClassUrls": "https://storify.com/aliquet.js",
+  "topic_Date": {
+    "$date": "2020-11-10T13:57:12.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b37"
+  },
+  "topic_ID": 21,
+  "topic_Name": "RESTful API design",
+  "topic_Contents": [
+    "authentication",
+    "file uploading",
+    "search functionality"
+  ],
+  "topic_PreReadUrls": "https://www.mernstackworkshops.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b1f"
+    }
+  ],
+  "topic_RecordingUrls": "http://ovh.net/sed.jpg",
+  "topic_LiveClassUrls": "http://soundcloud.com/ipsum/ac.png",
+  "topic_Date": {
+    "$date": "2020-11-10T13:57:12.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b38"
+  },
+  "topic_ID": 22,
+  "topic_Name": "User authentication and authorization",
+  "topic_Contents": [
+    "pagination",
+    "session management",
+    "form validation",
+    "authentication",
+    "database"
+  ],
+  "topic_PreReadUrls": "https://www.mernstacktutorial.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b20"
+    }
+  ],
+  "topic_RecordingUrls": "https://sfgate.com/feugiat/non/pretium/quis/lectus/suspendisse/potenti.jsp",
+  "topic_LiveClassUrls": "https://abc.net.au/primis.json",
+  "topic_Date": {
+    "$date": "2020-11-10T13:57:12.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b39"
+  },
+  "topic_ID": 23,
+  "topic_Name": "Performance optimization",
+  "topic_Contents": [
+    "routing"
+  ],
+  "topic_PreReadUrls": "https://www.mernstackintermediate.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b21"
+    }
+  ],
+  "topic_RecordingUrls": "https://gmpg.org/augue/vestibulum/rutrum/rutrum/neque.xml",
+  "topic_LiveClassUrls": "https://etsy.com/duis/ac/nibh/fusce/lacus.png",
+  "topic_Date": {
+    "$date": "2020-11-10T13:57:12.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b3a"
+  },
+  "topic_ID": 24,
+  "topic_Name": "Form handling in React",
+  "topic_Contents": [
+    "user authentication",
+    "search functionality",
+    "authentication",
+    "React Router",
+    "CRUD operations"
+  ],
+  "topic_PreReadUrls": "https://www.mernstackdevelopment.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b22"
+    }
+  ],
+  "topic_RecordingUrls": "http://posterous.com/duis/ac.json",
+  "topic_LiveClassUrls": "https://bandcamp.com/erat.js",
+  "topic_Date": {
+    "$date": "2020-11-10T13:57:12.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "658322f5b14c211015721b3b"
+  },
+  "topic_ID": 25,
+  "topic_Name": "CRUD operations with MongoDB",
+  "topic_Contents": [],
+  "topic_PreReadUrls": "https://www.mernstackbeginner.com",
+  "topic_Tasks": [
+    {
+      "$oid": "65831833b14c211015721b23"
+    }
+  ],
+  "topic_RecordingUrls": "http://godaddy.com/odio/donec/vitae/nisi/nam/ultrices/libero.jpg",
+  "topic_LiveClassUrls": "https://census.gov/non/ligula/pellentesque/ultrices/phasellus/id/sapien.html",
+  "topic_Date": {
+    "$date": "2020-11-05T15:41:49.000Z"
+  }
+}]
